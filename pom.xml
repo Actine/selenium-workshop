@@ -42,7 +42,7 @@
                         <webdriver.chrome.driver>${webDriverPath}</webdriver.chrome.driver>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${project.build.outputDirectory}/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>${project.build.testOutputDirectory}/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
