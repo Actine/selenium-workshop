@@ -16,11 +16,7 @@ import java.util.List;
  */
 public class HomePage {
 
-    @FindBy(id = "search_query_top")
-    public TextInput searchField;
-
-    @FindBy(name = "submit_search")
-    public Button searchButton;
+    public Header header;
 
     @FindBy(className = "product-container")
     public List<ProductListItem> productListItems;

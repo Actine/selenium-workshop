@@ -3,6 +3,7 @@ package com.example.workshop.selenium;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Button;
 import ru.yandex.qatools.htmlelements.element.HtmlElement;
+import ru.yandex.qatools.htmlelements.element.Link;
 import ru.yandex.qatools.htmlelements.element.TextBlock;
 
 import java.util.List;
@@ -13,9 +14,12 @@ import java.util.List;
 public class ProductListItem extends HtmlElement {
 
     @FindBy(css = "a.product-name")
-    public TextBlock productName;
+    public Link productName;
 
     @FindBy(css = "a.ajax_add_to_cart_button")
     public Button addToCartButton;
 
+    public void click() {
+        productName.click();
+    }
 }
