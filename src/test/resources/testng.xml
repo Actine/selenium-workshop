@@ -4,9 +4,12 @@
        configfailurepolicy="continue">
 
     <test name="All tests">
-        <packages>
-            <package name="com.example.workshop.selenium"/>
-        </packages>
+        <!--<packages>-->
+            <!--<package name="com.example.workshop.selenium"/>-->
+        <!--</packages>-->
+        <classes>
+            <class name="com.example.workshop.selenium.StepsTest" />
+        </classes>
     </test>
 
 </suite>

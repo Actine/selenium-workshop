@@ -1,4 +1,4 @@
-package com.example.workshop.selenium;
+package com.example.workshop.selenium.views;
 
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Button;
@@ -9,7 +9,7 @@ import ru.yandex.qatools.htmlelements.element.TextInput;
  * Created by Actine on 06.11.2016.
  */
 @FindBy(className = "header-container")
-public class Header extends HtmlElement {
+public class HeaderView extends HtmlElement {
 
     @FindBy(id = "search_query_top")
     private TextInput searchField;

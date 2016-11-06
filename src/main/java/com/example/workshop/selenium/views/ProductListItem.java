@@ -1,4 +1,4 @@
-package com.example.workshop.selenium;
+package com.example.workshop.selenium.views;
 
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Button;
